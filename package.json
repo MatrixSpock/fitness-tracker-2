@@ -1,0 +1,76 @@
+{
+  "name": "fitnesstrackr",
+  "version": "1.0.0",
+  "description": "an API for our new fitness empire, FitnessTrac.kr, using node, express, and postgresql",
+  "main": "index.js",
+  "scripts": {
+<<<<<<< HEAD
+    "postinstall": "npm run client:build",
+    "client:dev": "react-scripts start",
+    "client:build": "react-scripts build",
+    "server:dev": "nodemon index.js",
+    "seed:dev": "nodemon ./db/seed.js",
+    "seed": "node ./db/seed.js",
+    "start": "node index.js"
+=======
+    "seed:dev": "nodemon ./db/seed.js",
+    "seed": "node ./db/seed.js",
+    "start:dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watchAll --runInBand"
+>>>>>>> 812d109 (initial commit)
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "postgresql",
+    "javascript"
+  ],
+  "author": "Fullstack Academy",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+<<<<<<< HEAD
+    "body-parser": "^1.19.0",
+=======
+>>>>>>> 812d109 (initial commit)
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+<<<<<<< HEAD
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^4.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+=======
+    "jest": "^26.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.2.1"
+>>>>>>> 812d109 (initial commit)
+  }
+}
